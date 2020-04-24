@@ -1,0 +1,10 @@
+<node>
+  <interface name="com.qt.dbus.interface">
+    <method name="onMethodCallReceiveData">
+         <arg name="data" type="i" direction="in" />
+     </method>
+    <signal name="signalTransmiter">
+            <arg name="data" type="i" direction="out"/>
+    </signal>
+  </interface>
+</node>
