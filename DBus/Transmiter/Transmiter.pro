@@ -2,7 +2,7 @@ QT += quick dbus
 DBUS_INTERFACES += com.qt.dbus.xml
 
 CONFIG += c++11
-QMAKE_LFLAGS += -no-pie
+#QMAKE_LFLAGS += -no-pie
 
 # The following define makes your compiler emit warnings if you use
 # any Qt feature that has been marked deprecated (the exact warnings
